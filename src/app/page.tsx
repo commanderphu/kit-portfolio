@@ -55,7 +55,7 @@ export default function Portfolio() {
   return (
     <div className="min-h-screen bg-[#232223] bg-[url('/background/code-pattern.png')] bg-cover bg-fixed text-white font-['FiraCode Nerd Font',monospace]">
       <nav className="bg-[#1e1e1e]/80 backdrop-blur text-white shadow px-6 py-4 flex flex-wrap justify-between items-center sticky top-0 z-50">
-        <div className="text-xl font-bold text-orange-400">joshua.bein@localhost</div>
+        <div className="text-xl font-bold text-orange-400">einfachnurphu@localhost</div>
         <div className="space-x-4 text-sm mt-2 md:mt-0">
           <a href="#about" className="hover:text-orange-400">Über_mich</a>
           <a href="#skills" className="hover:text-orange-400">Skills</a>
