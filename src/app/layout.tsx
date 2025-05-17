@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Joshua Phu Bein | Dein IT-Held",
-  description: "GDein Freund und Helfer in der digitalen Welt"
+  description: "Dein Freund und Helfer in der digitalen Welt"
 };
 
 export default function RootLayout({

@@ -61,6 +61,7 @@ export default function Portfolio() {
           <a href="#skills" className="hover:text-orange-400">Skills</a>
           <a href="#projects" className="hover:text-orange-400">Projekte</a>
           <a href="#contact" className="hover:text-orange-400">Kontakt</a>
+          <a href="https://linktr.ee/einfachnurphu" className="hover:text-orange-400">Linktree_Socials</a>
         </div>
       </nav>
 
