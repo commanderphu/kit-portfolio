@@ -75,8 +75,8 @@ export default function Portfolio() {
         <Card className="bg-[#2f2f2f]/90 flex items-center justify-center">
           <CardContent className="p-6 text-center">
             <img
-              src="https://via.placeholder.com/120"
-              alt="Profilbild Platzhalter"
+              src="/logo.png"
+              alt="Joshua Phu Bein"
               className="w-28 h-28 rounded-full mx-auto mb-4 border border-orange-400"
             />
             <p className="text-sm text-gray-400">Profilbild – nerd approved</p>
