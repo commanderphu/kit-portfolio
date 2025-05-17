@@ -36,7 +36,7 @@ export default function Portfolio() {
     if (!formRef.current) return;
     const formData = new FormData(formRef.current);
 
-    const response = await fetch("https://formspree.io/f/xqkrvyyw", {
+    const response = await fetch("https://formspree.io/f/mrbqjqav", {
       method: "POST",
       body: formData,
       headers: {
