@@ -121,7 +121,7 @@ export default function Portfolio() {
             <div className="space-y-4">
               {projects.map((project) => (
                 <div key={project.title} className="border-b border-[#3a3a3a] pb-2">
-                  <p className="text-lg font-medium text-white">{project.title}</p>
+                  <a href="https://github.com/commanderphu/kit-portfolio"><p className="text-lg font-medium text-white">{project.title}</p></a>
                   <p className="text-sm text-gray-300">{project.description}</p>
                 </div>
               ))}
