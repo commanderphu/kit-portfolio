@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useRef } from "react";
 import { FaWindows, FaLinux, FaReact, FaGitAlt, FaTools } from "react-icons/fa";
+import { link } from "fs";
 
 export default function Portfolio() {
   const skills = [
@@ -21,7 +22,8 @@ export default function Portfolio() {
   const projects = [
     {
       title: "Portfolio Terminal Edition",
-      description: "Ein nerdiges CLI-inspiriertes Portfolio mit Tailwind & React."
+      description: "Ein nerdiges CLI-inspiriertes Portfolio mit Tailwind & React.",
+      link: "https://github.com/commanderphu/kit-portfolio"
     },
     {
       title: "DevOps für GameDev",
@@ -121,7 +123,7 @@ export default function Portfolio() {
             <div className="space-y-4">
               {projects.map((project) => (
                 <div key={project.title} className="border-b border-[#3a3a3a] pb-2">
-                  <a href="https://github.com/commanderphu/kit-portfolio"><p className="text-lg font-medium text-white">{project.title}</p></a>
+                  <a href={project.link}><p className="text-lg font-medium text-white">{project.title}</p></a>
                   <p className="text-sm text-gray-300">{project.description}</p>
                 </div>
               ))}
