@@ -8,7 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useRef } from "react";
 import { FaWindows, FaLinux, FaReact, FaGitAlt, FaTools } from "react-icons/fa";
-import { link } from "fs";
+
 
 export default function Portfolio() {
   const skills = [
