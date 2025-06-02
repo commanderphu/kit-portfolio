@@ -31,7 +31,7 @@ Hier findest du alles zu meinen Skills, Projekten und Kontaktmöglichkeiten. Tec
 ## 📦 Installation & Lokaler Start
 
 ```bash
-git clone https://github.com/dein-nutzername/portfolio.git
+git clone https://github.com/commanderphu/kit-portfolio.git
 cd portfolio
 npm install
 npm run dev
