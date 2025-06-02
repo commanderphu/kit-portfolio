@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 Joshua Bein – Nerd Portfolio
 
-## Getting Started
+Willkommen in meinem persönlichen Portfolio – aufgebaut wie ein Terminal, designed mit Liebe zu Code, CLI und dunklen Interfaces.  
+Hier findest du alles zu meinen Skills, Projekten und Kontaktmöglichkeiten. Tech & Style vereint.
 
-First, run the development server:
+![Screenshot Portfolio](./preview.png)
+
+---
+
+## 🚀 Features
+
+- 🔧 **Technologien:** React, Next.js, Tailwind CSS, shadcn/ui, Nerd Fonts
+- 🎨 **Design:** Catppuccin Dark + Orange Akzent (#ff9100)
+- 🖼️ **Hintergrund:** Terminal-inspirierter SVG/PNG mit Code-Ästhetik
+- ⚡ **Responsives Grid:** 2x2 Layout mit Platzhalter-Profilbild
+- 📬 **Formular:** Kontakt per [Formspree](https://formspree.io)
+
+---
+
+## 🎨 Farbpalette (HEX)
+
+| Element              | HEX       | Beschreibung                      |
+|----------------------|-----------|-----------------------------------|
+| Hintergrund (dunkel) | `#1e1e1e` | Hauptfläche                       |
+| Text (hellgrau)      | `#b0b0b0` | Sekundärinformationen             |
+| Akzentfarbe          | `#ff9100` | Fortschrittsbalken, Links, Icons |
+| Symbolgrau           | `#3c3c3c` | Deko-Elemente (z. B. Gear)        |
+
+---
+
+## 📦 Installation & Lokaler Start
 
 ```bash
+git clone https://github.com/dein-nutzername/portfolio.git
+cd portfolio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Dann öffne [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Struktur
 
-## Learn More
+```
+/public
+  /background/code-pattern.png   ← dein Nerd-Background
+/src/app/page.tsx                ← Hauptkomponente
+/components/ui/*                 ← Tailwind + shadcn/ui
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧰 Konfiguration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Nerd Font**: `FiraCode Nerd Font` (lokal oder systemweit installiert)
+- **Formspree**: Mailweiterleitung → `.env` optional oder direkt eingebunden
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ☕ Kontakt
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Du erreichst mich über das integrierte Kontaktformular oder via:
+
+- 📧 **Mail**: joshua@phuonline.de  
+- 🔗 [LinkedIn](https://linkedin.com/in/joshuaphu)
+
+---
+
+## 📜 Lizenz
+
+MIT – Feel free to fork & nerdify.
+
+---
+
+> „Code. Support. Coffee. Repeat.“ – Joshua Bein
