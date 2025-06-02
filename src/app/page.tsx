@@ -26,6 +26,11 @@ export default function Portfolio() {
       link: "https://github.com/commanderphu/kit-portfolio"
     },
     {
+	    title: "Manga Dictionary Frontend",
+	    description: "Eine Manga Bibliothek Web-App zur Verwaltung der Mangas",
+	    link: "https://github.com/commanderphu/manga-inventory-38"
+    },
+    {
       title: "DevOps für GameDev",
       description: "CI/CD-Systeme mit GitLab & Docker für Indie-Studios eingerichtet."
     }
