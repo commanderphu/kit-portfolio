@@ -3,7 +3,6 @@
 Willkommen in meinem persönlichen Portfolio – aufgebaut wie ein Terminal, designed mit Liebe zu Code, CLI und dunklen Interfaces.  
 Hier findest du alles zu meinen Skills, Projekten und Kontaktmöglichkeiten. Tech & Style vereint.
 
-![Screenshot Portfolio](./preview.png)
 
 ---
 
