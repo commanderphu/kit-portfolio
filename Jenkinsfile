@@ -1,11 +1,8 @@
 // Jenkinsfile for building and testing a Node.js application
 pipeline {
     agent any
-    environment {
-        NODE_VERSION = '14' // Specify the Node.js version
-    }
     tools {
-        nodejs "${NODE_VERSION}" // Use the Node.js tool defined in Jenkins
+        nodejs "Node_14" // Use the Node.js tool defined in Jenkins
     }
     stages {
         stage('Checkout') {
