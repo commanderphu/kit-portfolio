@@ -7,12 +7,14 @@ import { Button } from "@/components/ui/button";
 export default function Home() {
   const [booting, setBooting] = useState(false);
   const [finished, setFinished] = useState(false);
-  const audioRef = useRef<HTMLAudioElement | null>(null);
+  const audioRef = useRef<HTMLAudioElement>(null);
 
   const handleStart = () => {
-    audioRef.current = new Audio("/boot.mp3");
-    audioRef.current.volume = 0.5;
-    audioRef.current.play().catch(console.error);
+    if (audioRef.current) {
+      audioRef.current.currentTime = 0;
+      audioRef.current.volume = 0.5;
+      audioRef.current.play().catch(console.error);
+    }
     setBooting(true);
 
     setTimeout(() => {
@@ -23,8 +25,8 @@ export default function Home() {
 
   if (!booting && !finished) {
     return (
-      <div className="min-h-screen 
-       text-orange-400 font-mono flex flex-col justify-center items-center text-center px-4">
+      <div className="min-h-screen text-orange-400 font-mono flex flex-col justify-center items-center text-center px-4">
+        <audio ref={audioRef} src="/boot.mp3" preload="auto" />
         <p className="mb-6">Bereit zum Starten?</p>
         <button
           onClick={handleStart}
