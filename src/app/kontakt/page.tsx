@@ -48,7 +48,7 @@ export default function Kontakt() {
   }
 
 return (
-    <div className="flex min-h-screen items-center justify-center">
+    <div className="flex flex-1 items-center justify-center">
         <Card id="contact" className="bg-[#2f2f2f]/90 w-full max-w-md">
             <CardContent className="p-6">
                 <h2 className="text-xl font-semibold mb-4 text-orange-400 text-center">Kontaktformular</h2>
