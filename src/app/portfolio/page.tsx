@@ -5,6 +5,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { useEffect, useState } from "react";
 import { FaWindows, FaLinux, FaReact, FaGitAlt, FaTools } from "react-icons/fa";
+import  Image from "next/image";
 
 
 export default function Portfolio() {
@@ -66,9 +67,11 @@ export default function Portfolio() {
       <section id="about" className="max-w-5xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-6">
         <Card className="bg-[#2f2f2f]/90 flex items-center justify-center">
           <CardContent className="p-6 text-center">
-            <img
+            <Image
               src="/logo.png"
               alt="Joshua Phu Bein"
+              width={112} // entspricht w-28 (28*4px)
+              height={112} // entspricht h-28 (28*4px)
               className="w-28 h-28 rounded-full mx-auto mb-4 border border-orange-400"
             />
             <p className="text-sm text-gray-400">Profilbild – nerd approved</p>

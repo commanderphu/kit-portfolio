@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -41,9 +42,9 @@ export default function RootLayout({
           <footer className="mt-10 py-6 text-center text-sm text-gray-500 bg-[#1e1e1e]/80">
             <p>© {new Date().getFullYear()} JPB - Joshua Phu Bein</p>
             <p>
-              <a href="/impressum" className="underline hover:text-orange-400">
-                Impressum & Datenschutz
-              </a>
+              <Link href="/impressum" className="text-orange-400 hover:underline">
+                Impressum | Datenschutz
+              </Link>
             </p>
           </footer>
       </body>
