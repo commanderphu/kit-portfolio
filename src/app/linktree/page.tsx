@@ -20,7 +20,7 @@ return (
     <div className="flex-1 flex items-center justify-center  text-white p-4">
         <Card className="bg-[#2f2f2f] w-full max-w-md">
             <CardContent className="p-6">
-                <h1 className="text-2xl font-bold mb-4 text-orange-400 text-center">Linktree</h1>
+                <h1 className="text-2xl font-bold mb-4 text-orange-400 text-center">LinkTree</h1>
                 <p className="text-gray-300 mb-6 text-center">curl https://einfachnurphu.io/$link</p>
                 <ul className="space-y-3">
                     {links.map((link) => (
