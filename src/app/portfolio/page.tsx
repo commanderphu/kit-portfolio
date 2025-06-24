@@ -51,6 +51,11 @@ export default function Portfolio() {
       link: "https://github.com/commanderphu/manga-inventory-38"
     },
     {
+      title: "Time Tracking App",
+      description: "Eine App zur Zeiterfassung mit React, Python und PostgreSQL.",
+      link: "https://github.com/commanderphu/timetracker"
+    },
+    {
       title: "DevOps für GameDev",
       description: "CI/CD-Systeme mit GitLab & Docker für Indie-Studios eingerichtet."
     }
