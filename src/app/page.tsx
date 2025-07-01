@@ -41,9 +41,9 @@ export default function Home() {
         <>
           <p className="text-sm md:text-lg animate-pulse text-orange-400">[BOOT] Initialisiere Nerd Environment...</p>
           <p className="mt-2 text-gray-400">› Lade Module: [██▒▒▒▒▒▒▒▒]</p>
-          <p className="mt-2 text-gray-400">› Authentifiziere User: joshua.bein</p>
+          <p className="mt-2 text-gray-400">› Authentifiziere User: joshua.kuhrau</p>
           <p className="mt-2 text-gray-400">› Nerd Font geladen ✓</p>
-          <p className="mt-4 text-orange-400">system@bein:~$ <span className="text-white">startx</span></p>
+          <p className="mt-4 text-orange-400">system@kuhrau:~$ <span className="text-white">startx</span></p>
         </>
       )}
       {finished && (

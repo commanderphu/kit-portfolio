@@ -11,7 +11,9 @@ import  Image from "next/image";
 export default function Portfolio() {
     const [isBooting, setIsBooting] = useState(true);
 
-      // Bootscreen für 3 Sekunden anzeigen
+const Names = [
+  { name:"Joshua Phu", surname:"Kuhrau", nickname:"einfachnurphu", initials:"JPK" },
+]      // Bootscreen für 3 Sekunden anzeigen
      useEffect(() => {
           const timer = setTimeout(() => {
               setIsBooting(false);
@@ -24,9 +26,13 @@ export default function Portfolio() {
       <div className="min-h-screen text-orange-400 font-mono flex flex-col justify-center items-center text-center px-4">
             <p className="text-sm md:text-lg animate-pulse">[BOOT] Initialisiere Portfolio...</p>
             <p className="mt-2 text-gray-400">› Lade Module: [██▒▒▒▒▒▒▒▒]</p>
-            <p className="mt-2 text-gray-400">› Authentifiziere User: joshua.bein</p>
+            <p className="mt-2 text-gray-400">› Authentifiziere User: joshua.kuhrau</p>
             <p className="mt-2 text-gray-400">› Portfolio geladen ✓</p>
-            <p className="mt-4">system@bein:~$ <span className="text-white">startx</span></p>
+            {Names.map((name) => (
+              <p className="mt-4" key={name.surname}>
+                system@{name.surname} <span className="text-white">startx</span>
+              </p>
+            ))}
       </div>
       );
   }
@@ -64,7 +70,7 @@ export default function Portfolio() {
   return (
     <>
       <header className="text-center py-10 px-6 bg-[#232223]/80">
-        <h1 className="text-4xl font-bold">Joshua Phu Bein</h1>
+        <h1 className="text-4xl font-bold">Joshua Phu Kuhrau</h1>
         <p className="text-orange-400">sudo apt-get install it-support</p>
         <p className="mt-2 text-sm text-gray-400">Code. Support. Coffee. Repeat.</p>
       </header>

@@ -29,6 +29,10 @@ const Links = [
   { href: "/linktree", label: "Linktree" },
 ];
 
+const Names = [
+  { name:"Joshua Phu", surname:"Kuhrau", nickname:"einfachnurphu", initials:"JPK" },
+]
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -58,7 +62,9 @@ export default function RootLayout({
             {children}
           </main>
           <footer className="mt-2 py-5 text-center text-sm text-gray-500 bg-[#1e1e1e]/80">
-            <p>© {new Date().getFullYear()} JPB - Joshua Phu Bein</p>
+            <p>© {new Date().getFullYear()} | {Names.map((name) =>
+            (`${name.initials} -  ${name.name} ${name.surname} ` )
+            )}   </p>
             <p>
               <Link href="/impressum" className="text-orange-400 hover:underline">
                 Impressum | Datenschutz

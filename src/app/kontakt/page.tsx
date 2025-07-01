@@ -40,9 +40,9 @@ export default function Kontakt() {
       <div className="min-h-screen text-orange-400 font-mono flex flex-col justify-center items-center text-center px-4">
             <p className="text-sm md:text-lg animate-pulse">[BOOT] Initialisiere Kontaktformular...</p>
             <p className="mt-2 text-gray-400">› Lade Module: [██▒▒▒▒▒▒▒▒]</p>
-            <p className="mt-2 text-gray-400">› Authentifiziere User: joshua.bein</p>
+            <p className="mt-2 text-gray-400">› Authentifiziere User: joshua.kuhrau</p>
             <p className="mt-2 text-gray-400">› Kontaktformular geladen ✓</p>
-            <p className="mt-4">system@bein:~$ <span className="text-white">startx</span></p>
+            <p className="mt-4">system@kuhrau:~$ <span className="text-white">startx</span></p>
       </div>
       );
   }
