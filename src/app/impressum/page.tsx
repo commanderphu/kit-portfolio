@@ -2,12 +2,12 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { useEffect, useState } from "react";
-//import { getEnvVars } from "@/lib/vars";
+import { getEnvVars } from "@/lib/vars";
 
 export default function Impressum() {
     const [isBooting, setIsBooting] = useState(true);
 
-    //const name = getEnvVars("NAME");
+    const name = getEnvVars("NAME");
 
     // Bootscreen für 3 Sekunden anzeigen
     useEffect(() => {
