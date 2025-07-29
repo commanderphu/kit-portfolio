@@ -7,7 +7,8 @@ import { getEnvVars } from "@/lib/vars";
 export default function Impressum() {
     const [isBooting, setIsBooting] = useState(true);
 
-    const name = getEnvVars("NAME");
+    const envVars = getEnvVars("");
+    const name = envVars.NAME;
 
     // Bootscreen für 3 Sekunden anzeigen
     useEffect(() => {
@@ -37,7 +38,7 @@ export default function Impressum() {
                     <p className="text-gray-300 mb-6 text-center">curl https://einfachnurphu.io/impressum</p>
                     <ul className="space-y-4 text-sm text-gray-200">
                         <li>
-                            <strong className="text-orange-300">`$(name)`</strong>
+                            <strong className="text-orange-300">{name}</strong>
                         </li>
                         <li>
                             <span className="font-semibold text-gray-400">Adresse:</span>
