@@ -1,7 +1,7 @@
 export function getEnvVars(p0: string) {
     return {
         USERNAME: process.env.USERNAME || "einfachnurphu",
-        DISCORD_USER_ID: process.env.DISCORD_USER_ID || "123456789012345678",
+        DISCORD_USER_ID: process.env.DISCORD_USER_ID || "539392279811588097",
         GITHUB_USERNAME: process.env.GITHUB_USERNAME || "einfachnurphu",
         LINKEDIN_USERNAME: process.env.LINKEDIN_USERNAME || "joshuaphu",
         YOUTUBE_CHANNEL: process.env.YOUTUBE_CHANNEL || "einfachnurphu",

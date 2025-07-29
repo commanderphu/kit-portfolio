@@ -48,7 +48,7 @@ export default function Home() {
       )}
       {finished && (
         <>
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 text-orange-400">Willkommen bei Joshua Bein</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 text-orange-400">Willkommen bei Joshua Kuhrau</h1>
           <p className="text-gray-300 mb-10 max-w-xl">
             Fachinformatiker, Nerd, Systemtüftler – hier findest du mein Portfolio, Projekte und Kontaktmöglichkeiten.
           </p>
