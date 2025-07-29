@@ -1,4 +1,4 @@
-export function getEnvVars(p0: string) {
+export function getEnvVars() {
     return {
         USERNAME: process.env.USERNAME || "einfachnurphu",
         DISCORD_USER_ID: process.env.DISCORD_USER_ID || "539392279811588097",
