@@ -3,6 +3,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { useEffect, useState } from "react";
 import { getEnvVars } from "@/lib/vars";
+// Removed unused variable 'p0'
 
 export default function Impressum() {
     const [isBooting, setIsBooting] = useState(true);
