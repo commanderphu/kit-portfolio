@@ -8,7 +8,7 @@ import { getEnvVars } from "@/lib/vars";
 export default function Impressum() {
     const [isBooting, setIsBooting] = useState(true);
 
-    const envVars = getEnvVars("");
+    const envVars = getEnvVars("NAME"); // <-- ohne Argument!
     const name = envVars.NAME;
 
     // Bootscreen für 3 Sekunden anzeigen
@@ -98,5 +98,4 @@ export default function Impressum() {
             </Card>
         </div>
     );
-}   
-                        
+}
